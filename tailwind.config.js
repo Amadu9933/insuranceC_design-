@@ -8,4 +8,19 @@ module.exports = {
 
   plugins: [require("flowbite/plugin")],
   content: ["./node_modules/flowbite/**/*.js"],
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        dark: "#111827",
+      },
+    },
+  },
+  variants: {
+    extend: {
+      backgroundColor: ["dark"],
+      textColor: ["dark"],
+    },
+  },
+  plugins: [],
 };

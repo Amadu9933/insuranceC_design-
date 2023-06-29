@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Additional custom styling */
+.nav-link {
+  transition: background-color 0.3s ease-in-out;
+}
+.nav-link:hover {
+  background-color: #f8f8f8;
+}
+.nav-link.active {
+  background-color: #f8f8f8;
+}
